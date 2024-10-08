@@ -392,7 +392,7 @@ class Tapper:
 
 async def run_tapper(tg_client: Client):
     proxy = None
-    if settings.USE_PROXY_FROM_FILE:
+    if settings.ENABLE_PROXY:
         proxy_data = profiles[tg_client.name]['proxy'].strip()
         if proxy_data:
             proxy = Proxy.from_str(proxy=proxy_data).as_url

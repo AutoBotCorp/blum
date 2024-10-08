@@ -37,7 +37,7 @@
 |    **AUTO_RANK_UPGRADE**    |                  Automatically upgrade rank (True / False)                   |
 | **USE_RANDOM_DELAY_IN_RUN** | Whether to use random delay at startup (True / False)                              |
 | **RANDOM_DELAY_IN_RUN** |        Random delay at startup (e.g. [0, 15])                                          |
-| **USE_PROXY_FROM_FILE** |        Whether to use a proxy from the `bot/core/profiles.py` file (True / False)    |
+| **ENABLE_PROXY** |        Whether to use a proxy from the `bot/core/profiles.py` file (True / False)    |
 
 ## Quick Start 📚
 

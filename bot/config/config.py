@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     USE_RANDOM_DELAY_IN_RUN: bool = True
     RANDOM_DELAY_IN_RUN: list[int] = [0, 10]
 
-    USE_PROXY_FROM_FILE: bool = True
+    ENABLE_PROXY: bool = True
 
 
 settings = Settings()
